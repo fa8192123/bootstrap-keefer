@@ -1,0 +1,73 @@
+.call h3{
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 5px;
+    color: #7c1513;
+    position: relative;
+    font-size: 2vw;
+    display: inline;
+}
+.call h3 span{
+    position: absolute;
+    right: 0;
+    top: 45px;
+    background-color: rgb(52, 52, 52);
+    height: 4px;
+    width: 100%;
+
+}
+.call h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5.1vw;
+    line-height: 50px;
+}
+.call p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7vw;
+    letter-spacing: 1.5px;
+    line-height: 12px;
+}
+.navbar{
+    background: url(menu_bg.gif);
+    background-size: contain;
+}
+.navbar ul{
+    font-size: 1.7vw;
+    letter-spacing: 1px;
+}
+a:hover{
+    background-color: grey;
+}
+.inform{
+    background: url(form_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inform h2{
+    font-size: 2.3vw;
+    background-color: #9b0b12;
+}
+.top{
+    width: 23vw;
+}
+.top span{
+    color: #113452;
+    letter-spacing: 1px;
+}
+.inform p{
+    font-size: 1.4vw;
+}
+.info img{
+    width: 18vw;
+    transform: rotate(10deg);
+}
+textarea{
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.privacy button{
+   background-color: #9d0707;
+   color: white;
+    border: none;
+    font-size: 1.5vw;
+} 

@@ -53,6 +53,7 @@ a:hover{
 .top span{
     color: #113452;
     letter-spacing: 1px;
+    font-size: 3vw;
 }
 .inform p{
     font-size: 1.4vw;
@@ -70,4 +71,61 @@ textarea{
    color: white;
     border: none;
     font-size: 1.5vw;
-} 
+}
+.Top h2{
+    font-size: 2.3vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Top h4{
+    font-size: 1.8vw;
+}
+.Top h2 span{
+    color: #7c1513;
+    font-size: 2.3vw;
+}
+.Top p{
+    font-size: 1.3vw;
+}
+.bottomimg{
+    width: 18vw;
+}
+.button{
+    background-color: #9d0707;
+    border: none;
+}
+.box{
+    background-color:#838383;
+}
+.box .buttons{
+    background-color:#838383;
+    border: none;
+}
+.boxside{
+    width: 5%;
+    height: 6vw;
+}
+@media (max-width: 992px){
+    .inform h2{
+        font-size: 4vw;
+    }
+    .top{
+        width: 50vw;
+        font-size: 3.8vw;
+    }
+    .top span{
+        font-size: 5vw;
+    }
+    .inform p{
+        font-size: 2.8vw;
+    }
+    .info img{
+        width: 30vw;
+    }
+    textarea{
+        font-size: 3vw;
+    }
+    .privacy button{
+        font-size: 3vw;
+    }
+
+}

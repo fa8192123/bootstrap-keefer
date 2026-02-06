@@ -94,6 +94,7 @@ textarea{
     border: none;
     font-size: 1.2vw;
     height: 28px;
+    width: 70%;
 }
 .box{
     background-color:#838383;

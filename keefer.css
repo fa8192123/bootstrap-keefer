@@ -118,7 +118,9 @@ textarea{
     color: #888783;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.Border{
+    width: 200px;
+}
 @media (max-width: 992px){
     .inform h2{
         font-size: 4vw;
@@ -142,5 +144,30 @@ textarea{
     .privacy button{
         font-size: 3vw;
     }
-
+    .Top h2{
+        font-size: 3vw;
+    }
+    .Top h2 span{
+        font-size: 3vw;
+    }
+    .Top h4{
+        font-size: 2.1vw;
+    }
+    .Top p{
+        font-size: 1.6vw;
+    }
+}
+@media (max-width: 768px){
+    .Top h2{
+        font-size: 4vw;
+    }
+    .Top h2 span{
+        font-size: 4vw;
+    }
+    .Top h4{
+        font-size: 3vw;
+    }
+    .Top p{
+        font-size: 2vw;
+    }
 }
